@@ -1,0 +1,58 @@
+h1{
+color:red;
+}
+
+#ex1{
+max-width: 500px;
+margin: auto;
+border: 3px solid #f73628;
+padding: 20px;
+}
+
+.div1{
+    display: inline;
+    float: left;
+    background-color: red;
+}
+.div2{
+    display: inline;
+    float: left;
+    background-color: green;
+}
+.div3{
+    display: inline;
+    float: right;
+    background-color: yellow;
+}
+.div4{
+    display: inline;
+    float: right;
+    background-color: grey;
+}
+#static{
+    position: static;
+    border: 3px solid green;
+}
+
+#relative{
+    position: relative;
+    border: 3px solid yellow;
+}
+#pTagTest{
+    margin-bottom: 40px;
+}
+#fixed{
+    position: fixed;
+    border: 3px solid blue;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+#absolute{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid orange
+}
